@@ -1,6 +1,7 @@
 <?php
+// This is my first name
+$name = "Laura";
 
-$name = "Mike";
 $location = "Orlando, FL";
 $full_name = "Mike The Frog";
 $name = $full_name;

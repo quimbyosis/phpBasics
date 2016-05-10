@@ -1,4 +1,12 @@
 <?php
+
+define("YEAR", 2014);
+define("JOB_TITLE", "Teacher");
+define("MAX_BADGES", 150000 );
+
+//invalid constant name
+//define("2LEGIT", "to quit");
+
 // This is my first name
 $name = "Laura";
 
@@ -31,8 +39,17 @@ $name = $full_name;
       </ul>
     </section>
     <section class="main">
-      <p>Let's Get Started!</p>
-      <p><?php echo "Hello, World!" ?></p>
+      <pre><?php
+
+      $a = TRUE;
+      $b = TRUE;
+
+      var_dump( $a and $b ); //TRUE if a and b are TRUE
+      var_dump( $a or $b ); //TRUE if a or b are TRUE
+      var_dump( ! $a ); //TRUE if a is not TRUE
+        
+        ?>
+      </pre>
     </section>
   </body>
 </html>
